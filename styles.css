@@ -1,8 +1,15 @@
 
+body {
+
+    display: flex;
+    flex-direction: column;
+}
+
+
 .header {
 
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 
 }
 
@@ -25,5 +32,37 @@ li {
 
 .top-content {
 
-    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.top-content-left {
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+.image-container {
+
+    display: flex;
+    align-items: center;
+}
+
+
+
+.middle-content {
+
+    display: flex;
+
+}
+
+.blue-box {
+
+    border: solid;
+    border-color: #3882F6;
+    min-width: 100px;
+    min-height: 100px;
+    flex-shrink: 0;
 }
