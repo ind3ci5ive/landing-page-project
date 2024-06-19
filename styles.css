@@ -1,0 +1,29 @@
+
+.header {
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+ul {
+    display: flex;
+    gap: 16px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+
+
+    text-decoration: none;
+}
+
+
+
+
+.top-content {
+
+    
+}
