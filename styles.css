@@ -23,10 +23,13 @@ ul {
 
 li {
 
-
     text-decoration: none;
 }
 
+p {
+
+    margin: 0;
+}
 
 
 
@@ -78,7 +81,7 @@ li {
 
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 22px;
 }
 
 .image-subtext {
@@ -90,7 +93,31 @@ li {
 .bottom-content {
 
     display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-size: 30px;
+    padding: 150px 150px;
+}
+
+/* .quote-container {
+
+    display: flex;
+} */
+
+
+
+.action-call {
+
+    display: flex;
+    justify-content: center;
+}
+
+.action-call-container {
+
+    display: flex;
+    justify-content: center;
     align-items: center;
-    font-size: 20px;
+    background-color: #3882F6;
+    padding: 50px 100px;
 }
 
