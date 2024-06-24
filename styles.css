@@ -46,8 +46,8 @@ button {
     max-width: 100px;
     border-radius: 10px;
     border-style: none;
-    padding: 5px;
     font-weight: 900;
+    font-size: 16px;
 }
 
 
@@ -56,7 +56,7 @@ button {
     display: flex;
     justify-content: space-around;
     background-color: #1f2937;
-    color: #e5e7e3;
+    color: #e5e7eb;
     padding: 16px;
 }
 
@@ -68,7 +68,7 @@ button {
     justify-content: center;
     gap: 50px;
     background-color: #1f2937;
-    color: #e5e7e3;
+    color: #e5e7eb;
     padding: 100px;
 }
 
@@ -85,8 +85,8 @@ button {
 .top-button {
 
     background-color: #3882F6;
-    color: #e5e7e3;
-    padding: 5px;
+    color: #e5e7eb;
+    padding: 10px;
 }
 
 
@@ -153,12 +153,22 @@ button {
     align-items: flex-end;
     font-size: 30px;
     padding: 150px 150px;
+    background-color: #e5e7eb;
+
 }
 
-/* .quote-container {
 
-    display: flex;
-} */
+.quote-content {
+
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.quote-container {
+
+    font-weight: 900;
+}
 
 
 
@@ -166,17 +176,37 @@ button {
 
     display: flex;
     justify-content: center;
+    padding: 100px 0;
 }
 
 .action-call-container {
 
     display: flex;
+    min-width: 1000px;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background-color: #3882F6;
     padding: 50px 100px;
     gap: 30px;
+    color: #e5e7eb;
+    border-radius: 15px;
+}
+
+.action-call-content {
+
+    font-size: 24px;    
+}
+
+.bottom-button {
+
+    background-color: #3882F6;
+    color: #e5e7eb;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #e5e7eb;
+    padding: 10px;
+    min-width: 100px;
 }
 
 
@@ -184,5 +214,9 @@ footer {
 
     display: flex;
     justify-content: center;
+    color: #e5e7eb;
+    background-color: #1f2937;
+    padding: 50px 0;
+    font-size: 16px;
 }
 
